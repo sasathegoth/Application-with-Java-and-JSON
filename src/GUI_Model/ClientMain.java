@@ -29,7 +29,7 @@ public class ClientMain extends JFrame {
     private JButton backCButton;
     private JScrollPane scrollPaneClient;
 
-    //Erstellen des Controllers und des ListModels
+    //Erstellen des Controllers und des ListModels für Kunde
     private ClientController clientModel = new ClientController();
     private DefaultListModel clientListModel = new DefaultListModel(); // benötigt für die JList
 
